@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Cloud Workshop</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section >
+						<h3>IBM Cloud Programming Workshop</h3>
+						<img width="127" height="109" src="images/ibmcloud.png"><br><br><br>
+						<small>Kiran Jaim |</small>
+						<small>Martin Henke |</small>
+						<small>Matthias Kubik |</small>
+						<small>Somaya Jamil </small><br>
+				</section>
+				<section >
+					<h3>Introduction</h3>
+					<ul>
+						<li class="fragment">Kiran</li>
+						<li class="fragment">Somaya</li>
+						<li class="fragment">Martin</li>
+						<li class="fragment">Matthias</li>
+					</ul>
+				</section>
+				<section>
+					<section >
+							<h3>What is cloud computing?</h3>
+							<p >Cloud computing is the on demand availability of computer system resources, 
+								especially data storage and computing power, without direct active management by the user. 
+								The term is generally used to describe data centers available to many users over the Internet. 
+								(Wikipedia)</p>
+					</section>
+					<section >
+							<h3>Why?</h3>
+							<ul>
+								<li>Cost Reduction</li>
+								<li>Agility</li>
+								<li>Flexibility</li>
+								<li>Time to Market</li>
+								<li>Grow as you go</li>
+							</ul>
+					</section>
+					<section >
+							<h3>Key Programming Concepts</h3>
+							<ul>
+								<li>Microservices, see the <a href="https://12factor.net">12 Factor App</a></li>
+								<li>* as a Service</li>
+								<li>Logging</li>
+								<li>Monitoring</li>
+							</ul>
+					</section>
+					<section >
+							<h3>Microservices</h3>
+							<img  src="images/microservices.png">
+					</section>
+					<section >
+							<h3>From IaaS to FaaS</h3>
+							<img  src="images/compute.png">
+					</section>
+					<section >
+							<h3>DevOps</h3>
+							<img  src="images/devops.png">
+					</section>
+					<section >
+							<h3>IBM Cloud UI Walkthrough</h3>
+							<a href="https://cloud.ibm.com">IBM Cloud</a>
+					</section>
+					<section >
+							<h3>Let's go!</h3>
+							<img  src="images/letsgo.jpg">
+					</section>
+					<section >
+							<h3>Workshop time!</h3>
+							<a href="https://hrtclouddemo.github.io">Workshop</a>
+					</section>
+				</section>
+		</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
